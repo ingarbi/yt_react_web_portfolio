@@ -1,10 +1,32 @@
-import React from 'react'
-import "./Sidebar.css"
+import React, { useState } from "react";
+import "./Sidebar.css";
+import Home from "../Home/Home";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 const Sidebar = () => {
+  const [expandSidebar, setExpandSidebar] = useState(true);
+  const handleClick = () => {
+    setExpandSidebar(!expandSidebar);
+  };
   return (
-    <div className='container-fluid sidebar-section'>Sidebar</div>
-  )
-}
+    <div className="container-fluid sidebar-section">
+      <div className={expandSidebar ? "sidebar-expand sidebar" : "sidebar"}>
+        <div className="icon-for-sidebar-expand-and-collapse">
+          <p onClick={handleClick}>
+            {expandSidebar ? (
+              <BsChevronLeft size={30} />
+            ) : (
+              <BsChevronRight size={30} />
+            )}
+          </p>
+        </div>
+      </div>
 
-export default Sidebar
+      <div className="container">
+        <Home />
+      </div>
+    </div>
+  );
+};
+
+export default Sidebar;
