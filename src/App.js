@@ -1,8 +1,11 @@
 import React from 'react'
+import Sidebar from './Components/Sidebar/Sidebar'
 
 const App = () => {
   return (
-    <button className='btn btn-success'>Hello</button>
+    <>
+    <Sidebar></Sidebar>
+    </>
   )
 }
 
