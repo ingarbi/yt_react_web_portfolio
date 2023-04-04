@@ -1,0 +1,11 @@
+.sidebar-profile-pic img {
+    border-radius: 90px;
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+    object-fit: cover;
+    border: 3px solid yellow;
+}

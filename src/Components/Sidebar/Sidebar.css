@@ -6,6 +6,7 @@
     height: 100vh;
     width: 95px;
     background-color: #030303da;
+    position: fixed;
 }
 
 .sidebar-expand{
