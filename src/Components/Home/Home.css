@@ -14,3 +14,33 @@
     padding-left: 10px;
     color: yellow;
 }
+
+.button-for-action{
+    display: flex;
+}
+.hire-me-button, .get-resume-button{
+    background-color: #FF854C;
+    text-align: center;
+    width: 180px;
+    padding: 10px;
+    border-radius: 90px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid;
+    font-size: 17px;
+}
+
+.hire-me-button:hover, .get-resume-button:hover{
+    background-color: white;
+    width: 230px;
+    color: black;
+    transition-duration: 1.3s;
+}
+.get-resume-button{
+    background-color: yellow;
+    color: black;
+}
+
+.get-resume-button a{
+    text-decoration: none;
+}
