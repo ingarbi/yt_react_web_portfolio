@@ -1,5 +1,6 @@
 .sidebar-section{
     display: flex;
+    background-color: #030303da;
 }
 
 .sidebar{

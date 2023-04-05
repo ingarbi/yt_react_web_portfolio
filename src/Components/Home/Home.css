@@ -1,0 +1,16 @@
+
+.home{
+    height: 400px;
+    color: white;
+}
+
+.home-content h1{
+    padding: 10px;
+    margin-top: 150px;
+}
+
+.home-content h3{
+    margin-top: 15px;
+    padding-left: 10px;
+    color: yellow;
+}
