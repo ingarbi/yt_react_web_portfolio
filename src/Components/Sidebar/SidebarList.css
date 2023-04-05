@@ -9,3 +9,15 @@
     object-fit: cover;
     border: 3px solid yellow;
 }
+
+.navbar-items ul li {
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.navbar-items ul li svg {
+    margin-right: 25px;
+    margin-left: 10px;
+}
