@@ -33,3 +33,14 @@
     -moz-box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
     box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
 }
+
+.tech-number{
+    border-radius: 90px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+}

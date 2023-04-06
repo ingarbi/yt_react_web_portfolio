@@ -44,6 +44,25 @@ const TechStack = () => {
         },
     ]
 
+    const colors = [
+        "49AD09",
+        "#9FE2BF",
+        "#6495ED",
+        "#DE3163",
+        "#454545",
+        "#C0C0C0",
+        '#800000',
+        '#800080',
+        '#FF00FF',
+        '#000080',
+        '#00FFFF',
+        '#00FF00',
+        '#86105B',
+        '#000080',
+        "#454545",
+    ]
+
+
   return (
     <div className='container tech-stack-section'>
 
@@ -54,8 +73,9 @@ const TechStack = () => {
 
         <div className='row'>
             {data.map((item, index) =>(
-                <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
+                <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12' key={index + 1}>
                     <div className='tech-content'>
+                        <span className='tech-number' style={{backgroundColor: colors[index + 1]}}>{index + 1}</span>
                         <p>{item.name}</p>
                     </div>
                 </div>
