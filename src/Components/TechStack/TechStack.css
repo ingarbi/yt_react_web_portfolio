@@ -1,0 +1,35 @@
+
+.section-title h5 {
+    text-align: center;
+}
+
+.tech-stack-section{
+    margin-top: 40px;
+    height: auto;
+}
+
+.tech-content{
+    padding: 10px;
+    color: black;
+    margin-top: 50px;
+    -webkit-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.tech-content p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tech-content:hover{
+    background-color: rgb(224, 153, 10);
+    color: white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    -webkit-box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
+}
