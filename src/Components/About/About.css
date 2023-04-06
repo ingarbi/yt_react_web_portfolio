@@ -1,0 +1,30 @@
+.about-section {
+  -webkit-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+  margin-top: 50px;
+}
+
+.about-image img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 60px;
+  margin-top: 80px;
+}
+
+.about-details {
+  margin-top: 50px;
+}
+
+.about-title h5 {
+  text-align: center;
+}
+
+.line {
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 1px auto;
+  background-color: yellowgreen;
+}
