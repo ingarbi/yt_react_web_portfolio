@@ -6,6 +6,7 @@
 .tech-stack-section{
     margin-top: 40px;
     height: auto;
+    margin-bottom: 50px;
 }
 
 .tech-content{
@@ -35,7 +36,7 @@
 }
 
 .tech-number{
-    border-radius: 90px;
+    border-radius: 80px;
     height: 50px;
     width: 50px;
     color: white;
@@ -43,4 +44,21 @@
     display: block;
     margin: 0 auto;
     line-height: 50px;
+    margin-top: -30px;
+}
+
+.load-more-tech-stack{
+    background-color: tomato;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 40px;
 }
