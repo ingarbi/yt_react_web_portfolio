@@ -14,6 +14,11 @@
     transition-duration: 0.15s;
 }
 
+.project-list-opened:hover{
+    border-left: 5px solid red;
+}
+
+
 .title-and-collapse-option{
     display: flex;
     justify-content: space-between;
@@ -56,4 +61,8 @@
     background-color: blueviolet;
     cursor: pointer;
     transition-duration: 0.15s;
+}
+
+.description{
+    margin: 5px;
 }
