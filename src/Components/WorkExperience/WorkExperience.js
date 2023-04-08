@@ -114,7 +114,7 @@ const WorkExperience = () => {
   return (
     <div className='container work-experience-section'>
         <div className="section-title">
-        <h5>WorkExperience</h5>
+        <h5>Work Experience</h5>
         <span className="line"></span>
       </div>
     
