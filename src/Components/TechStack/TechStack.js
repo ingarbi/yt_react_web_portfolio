@@ -68,7 +68,7 @@ const TechStack = () => {
   };
 
   return (
-    <div className="container tech-stack-section">
+    <div className="container tech-stack-section" id="techstack">
       <div className="section-title">
         <h5>Tech Stack</h5>
         <span className="line"></span>
@@ -90,10 +90,11 @@ const TechStack = () => {
         ))}
       </div>
 
-    {showMoreTechStack >= data.length ? null : (
-        <span className="load-more-tech-stack" onClick={loadMore}>Load More</span>
-    )}
-      
+      {showMoreTechStack >= data.length ? null : (
+        <span className="load-more-tech-stack" onClick={loadMore}>
+          Load More
+        </span>
+      )}
     </div>
   );
 };

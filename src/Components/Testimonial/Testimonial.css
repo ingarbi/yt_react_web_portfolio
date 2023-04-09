@@ -1,47 +1,46 @@
-.testimonial-section{
-    margin-top: 70px;
-
+.testimonial-section {
+  margin-top: 70px;
 }
 
-.content-slider-main{
-    margin-top: 40px;
+.content-slider-main {
+  margin-top: 40px;
 }
 
-.content-slider{
-    padding: 10px;
-    color: white;
-    background-color: darkgreen;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    text-align: center;
-    cursor: pointer;
-    margin: 5px;
-    height: 200px;
-    border-radius: 5px;
+.content-slider {
+  padding: 10px;
+  color: white;
+  background-color: darkgreen;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  cursor: pointer;
+  margin: 5px;
+  height: 200px;
+  border-radius: 5px;
 }
 
-.content-slider:hover{
-    background-color: yellowgreen;
+.content-slider:hover {
+  background-color: yellowgreen;
 }
 
-.content-slider img.center-image{
-    height: 80px;
-    width: 80px;
-    border-radius: 90px;
-    display: block;
-    margin: 0 auto;
-    object-fit: cover;
-    margin-top: -30px;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid yellow;
+.content-slider img.center-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 90px;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  margin-top: -30px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid yellow;
 }
 
-.slick-prev:before{
-    color: red!important;
-    font-size: 25px;
+.slick-prev:before {
+  color: red !important;
+  font-size: 25px;
 }
-.slick-next:before{
-    color: red!important;
-    font-size: 25px;
+.slick-next:before {
+  color: red !important;
+  font-size: 25px;
 }

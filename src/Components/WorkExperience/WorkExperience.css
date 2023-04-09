@@ -1,15 +1,15 @@
-.work-experience-section{
-    margin-top: 50px;
+.work-experience-section {
+  margin-top: 50px;
 }
 
-.tech-skills p:hover{
-    cursor: pointer;
+.tech-skills p:hover {
+  cursor: pointer;
 }
 
 /* .tech-skills{
     background-color: black;
 } */
 
-.date-year{
-    color: black;
+.date-year {
+  color: black;
 }

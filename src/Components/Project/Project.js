@@ -102,12 +102,12 @@ const Project = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="container" id="project">
       <div className="section-title">
         <h5>Projects</h5>
         <span className="line"></span>
       </div>
-
+      s
       <div className="row">
         {data.map((item, index) => (
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12" key={index}>

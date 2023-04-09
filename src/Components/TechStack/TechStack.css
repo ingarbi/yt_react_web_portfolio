@@ -1,64 +1,63 @@
-
 .section-title h5 {
-    text-align: center;
+  text-align: center;
 }
 
-.tech-stack-section{
-    margin-top: 40px;
-    height: auto;
-    margin-bottom: 50px;
+.tech-stack-section {
+  margin-top: 40px;
+  height: auto;
+  margin-bottom: 50px;
 }
 
-.tech-content{
-    padding: 10px;
-    color: black;
-    margin-top: 50px;
-    -webkit-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+.tech-content {
+  padding: 10px;
+  color: black;
+  margin-top: 50px;
+  -webkit-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-.tech-content p{
-    text-align: center;
-    padding-top: 30px;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.tech-content p {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.tech-content:hover{
-    background-color: rgb(224, 153, 10);
-    color: white;
-    transition-duration: 0.5s;
-    cursor: pointer;
-    -webkit-box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
+.tech-content:hover {
+  background-color: rgb(224, 153, 10);
+  color: white;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-.tech-number{
-    border-radius: 80px;
-    height: 50px;
-    width: 50px;
-    color: white;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    line-height: 50px;
-    margin-top: -30px;
+.tech-number {
+  border-radius: 80px;
+  height: 50px;
+  width: 50px;
+  color: white;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  line-height: 50px;
+  margin-top: -30px;
 }
 
-.load-more-tech-stack{
-    background-color: tomato;
-    color: white;
-    width: 150px;
-    padding: 10px;
-    text-align: center;
-    justify-content: center;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-bottom: 40px;
+.load-more-tech-stack {
+  background-color: tomato;
+  color: white;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 40px;
 }

@@ -1,51 +1,51 @@
 .contact-section {
-    margin-top: 150px;
-    height: 650px;
-    margin-bottom: 50px;
-    -webkit-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+  margin-top: 150px;
+  height: 650px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-
-.contact-form-image img{
-    height: 600px;
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
+.contact-form-image img {
+  height: 600px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
-contact-form input, .custom-select-tag{
-    height: 50px;
-    border-radius: 10px;
-    margin-top: 10px;
-    width: 100%;
-    margin-bottom: 20px;
+contact-form input,
+.custom-select-tag {
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.contact-form{
-    border-radius: 10px;
-    margin-top: 10px;
-    width: 100%;
-    margin-bottom: 20px;
+.contact-form {
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .button-submit p {
-    background-color: black;
-    color: yellowgreen;
-    padding: 10px;
-    border: 10px;
-    width: 40%;
-    margin-top: 40px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  color: yellowgreen;
+  padding: 10px;
+  border: 10px;
+  width: 40%;
+  margin-top: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.button-submit p:hover{
-    background-color: darkgreen;
-    color: white;
-    transition-duration: 0.15s;
+.button-submit p:hover {
+  background-color: darkgreen;
+  color: white;
+  transition-duration: 0.15s;
 }

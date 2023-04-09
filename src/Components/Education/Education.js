@@ -36,7 +36,7 @@ const Education = () => {
   ];
 
   return (
-    <div className="container education">
+    <div className="container education" id="education">
       <div className="section-title">
         <h5>Education</h5>
         <span className="line"></span>
@@ -54,9 +54,7 @@ const Education = () => {
             icon={<FcGraduationCap />}
             key={index}
           >
-            <h3 className="vertical-timeline-element-title">
-              {item.name}
-            </h3>
+            <h3 className="vertical-timeline-element-title">{item.name}</h3>
             <h5 className="vertical-timeline-element-subtitle">
               {item.degree}
             </h5>
