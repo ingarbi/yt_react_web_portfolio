@@ -45,3 +45,23 @@
 .get-resume-button a {
   text-decoration: none;
 }
+
+.theme-change{
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  background-color: darkblue;
+  margin-right: 10px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  vertical-align: middle;
+  top: 150px;
+  line-height: 50px;
+  margin-top: 250px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+
+
+}

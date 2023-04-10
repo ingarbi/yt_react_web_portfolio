@@ -2,10 +2,18 @@ import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 import MyCV from "./cv.pdf";
+import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
 
-const Home = () => {
+
+const Home = ({theme, changeTheme}) => {
   return (
     <div className="container-fluid home" id="home">
+
+      <div className="theme-change" onClick={changeTheme}>
+        {theme === 'light' ? (<p><BsFillMoonFill size={40} /></p>): (<BsFillSunFill size={40} />)}
+
+      </div>
+
       <div className="container home-content">
         <h1>Hi I'm</h1>
         <h3>
