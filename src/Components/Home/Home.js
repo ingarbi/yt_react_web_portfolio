@@ -10,7 +10,7 @@ const Home = ({theme, changeTheme}) => {
     <div className="container-fluid home" id="home">
 
       <div className="theme-change" onClick={changeTheme}>
-        {theme === 'light' ? (<p><BsFillMoonFill size={40} /></p>): (<BsFillSunFill size={40} />)}
+        {theme === 'light' ? (<p><BsFillMoonFill size={40} /></p>): (<p className="sun-theme-icon"><BsFillSunFill size={40} /></p>)}
 
       </div>
 

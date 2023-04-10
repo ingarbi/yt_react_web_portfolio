@@ -16,3 +16,8 @@
   background-color: crimson;
   border-radius: 5px;
 }
+
+#dark{
+  background-color: rgb(151, 81, 216);
+  color: white;
+}
