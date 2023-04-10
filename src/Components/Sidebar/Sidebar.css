@@ -34,3 +34,9 @@
   padding-right: 0px !important;
   overflow: hidden;
 }
+
+@media (max-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+}

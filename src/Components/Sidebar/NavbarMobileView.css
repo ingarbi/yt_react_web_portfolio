@@ -1,0 +1,26 @@
+.mobile-view-navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-header{
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    padding: 5px;
+}
+
+.navbar-header p svg {
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 1000px) {
+  .mobile-view-navbar {
+    display: none;
+  }
+}
