@@ -18,6 +18,35 @@
 }
 
 
+.mobile-nav{
+    height: auto;
+    width: 210px;
+    margin-top: 0px;
+    padding: 2px;
+    padding-bottom: 10px;
+    background-color: crimson;
+}
+
+.mobile-nav ul li{
+    margin-top: 20px;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.mobile-nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item-mobileview .active{
+    color: white;
+    background-color: chocolate;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+
 
 @media (min-width: 1000px) {
   .mobile-view-navbar {
