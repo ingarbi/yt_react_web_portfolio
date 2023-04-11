@@ -3,6 +3,7 @@ import "./Home.css";
 import Typewriter from "typewriter-effect";
 import MyCV from "./cv.pdf";
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
+import { Link } from "react-scroll";
 
 
 const Home = ({theme, changeTheme}) => {
@@ -33,7 +34,7 @@ const Home = ({theme, changeTheme}) => {
         </h3>
 
         <div className="button-for-action">
-          <div className="hire-me-button">Hire me</div>
+          <div className="hire-me-button"><Link to="contact" spy={true} offset={-200}>Hire me</Link></div>
           <div className="get-resume-button">
             <a href={MyCV} download="My_Resume.pdf">
               Get Resume

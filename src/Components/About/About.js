@@ -1,4 +1,7 @@
 import React from "react";
+
+import Fade from 'react-reveal/Fade';
+
 import "./About.css";
 import ProfilePicture from "../../Image/profile.jpg";
 
@@ -15,9 +18,12 @@ const About = () => {
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
           <div className="about-details">
             <div className="about-title">
+            <Fade top>
               <h5>About Me</h5>
               <span className="line"></span>
+              </Fade>
             </div>
+            <Fade bottom>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -37,6 +43,7 @@ const About = () => {
               pharetra vel turpis nunc. Amet est placerat in egestas erat
               imperdiet sed euismod.
             </p>
+            </Fade>
           </div>
         </div>
       </div>

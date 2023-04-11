@@ -8,6 +8,16 @@ const ProjectList = ({ name, des, projectLink, techUsed }) => {
     setShow(!show);
   };
 
+  const colors = [
+    "#FF00FF",
+    "#000080",
+    "#00FFFF",
+    "#00FF00",
+    "#86105B",
+    "#000080",
+    "#454545",
+  ];
+
   return (
     <div
       className={show ? "project-list-opened project-list" : "project-list"}
@@ -27,7 +37,7 @@ const ProjectList = ({ name, des, projectLink, techUsed }) => {
           techUsed.map((tech, index) => (
             <div className="col-xl-4 col-lg-3 col-md-6 col-sm-12" key={index}>
               <div className="tech-used-in-project">
-                <p>{tech.techname}</p>
+                <p style={{backgroundColor:colors[index+3]}}>{tech.techname}</p>
               </div>
             </div>
           ))}

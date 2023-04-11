@@ -1,8 +1,55 @@
-import React from "react";
+import React, { useState } from "react";
 import { TbBrandTelegram } from "react-icons/tb";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import "./Contact.css";
 
 const Contact = () => {
+  const API = "http://localhost:8080/sendemail";
+
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [jobtypes, setJobtypes] = useState();
+  const [message, setMessage] = useState();
+
+  const sendemailInfo = () => {
+    fetch(API, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        name,
+        email,
+        jobtypes,
+        message,
+      }),
+    })
+      .then((res) => res.json())
+      .then((result) => {
+        if(result.error){
+          toast.error(result.error,{
+            position: toast.POSITION.TOP_RIGHT,
+            
+          })
+        
+        }else{
+          toast.success("Your Email has been sent",{
+            position: toast.POSITION.TOP_RIGHT,
+            
+          })
+          setName("")
+          setEmail("")
+          setJobtypes("")
+          setMessage("")
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
   return (
     <div className="container contact-section" id="contact">
       <div className="row">
@@ -27,25 +74,39 @@ const Contact = () => {
               <label htmlFor="" className="form-label">
                 Name:
               </label>
-              <input type="text" className="form-control" />
+              <input
+                type="text"
+                className="form-control"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
             </div>
 
             <div className="contact-form">
               <label htmlFor="" className="form-label">
                 Email:
               </label>
-              <input type="email" className="form-control" />
+              <input
+                type="email"
+                className="form-control"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
             </div>
 
             <div className="contact-form">
               <label htmlFor="" className="form-label">
                 Job Type:
               </label>
-              <select name="" id="" className="custom-select-tag">
+              <select
+                className="custom-select-tag"
+                value={jobtypes}
+                onChange={(e) => setJobtypes(e.target.value)}
+              >
                 {/* <option value="" autoFocus>------------------</option> */}
-                <option value="">Full-time</option>
-                <option value="">Part-time</option>
-                <option value="">Period-time</option>
+                <option>Full-time</option>
+                <option >Part-time</option>
+                <option >Period-time</option>
               </select>
             </div>
 
@@ -53,10 +114,15 @@ const Contact = () => {
               <label htmlFor="" className="form-label">
                 Message:
               </label>
-              <textarea rows={5} className="form-control"></textarea>
+              <textarea
+                rows={5}
+                className="form-control"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+              />
             </div>
 
-            <div className="button-submit">
+            <div className="button-submit" onClick={sendemailInfo}>
               <p>
                 Send <TbBrandTelegram size={25} />
               </p>
@@ -64,6 +130,9 @@ const Contact = () => {
           </form>
         </div>
       </div>
+
+      <ToastContainer autoClose={8000} draggable
+            hideProgressBar />
     </div>
   );
 };
