@@ -16,7 +16,7 @@ const Home = ({theme, changeTheme}) => {
       </div>
 
       <div className="container home-content">
-        <h1>Hi I'm</h1>
+        <h1>Hi I'm FT Interpreter</h1>
         <h3>
           <Typewriter
             options={{
